@@ -41,5 +41,9 @@
     "chai": "~1.9.1",
     "mocha": "*",
     "verb-tag-jscomments": "^0.1.4"
+  },
+  "dependencies": {
+    "through2": "^0.5.1",
+    "xtend": "^3.0.0"
   }
 }
