@@ -10,6 +10,10 @@ Install with [npm](npmjs.org):
 npm i assemble-middleware-buffer --save-dev
 ```
 
+## Buffer
+
+
+
 ## Author
 
 **Brian Woodward**
