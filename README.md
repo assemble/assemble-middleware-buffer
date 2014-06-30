@@ -11,7 +11,26 @@ npm i assemble-middleware-buffer --save-dev
 ```
 
 ## Buffer
+### buffer
 
+Add files to the specified array on Assemble.
+
+**Usage**
+
+```js
+var assemble = require('assemble');
+var buffer = require('assemble-middleware-buffer')(assemble);
+var tap = require('gulp-tap');
+
+assemble.src('path/to/pages/*.hbs')
+  .pipe(buffer({type: 'posts'}))
+  .pipe(tap(function (file) {
+    console.log('posts', assemble.posts);
+  });
+```
+
+* `options` {Object}: object containing options: * {String} `type` name of the array to store the files in.  
+* `return` {Stream} stream to continue piping.
 
 
 ## Author
