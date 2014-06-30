@@ -1,6 +1,6 @@
 {
   "name": "assemble-middleware-buffer",
-  "description": "Buffer files into a specified array on the Assemble object.",
+  "description": "Buffer files into a specified array on the Assemble context.",
   "version": "0.1.0",
   "homepage": "https://github.com/assemble/assemble-middleware-buffer",
   "author": {
