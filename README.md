@@ -1,7 +1,7 @@
 <!-- `.verbrc.md` is a README.md template and documentation config file for Verb. See https://github.com/assemble/verb for more info. -->
 # assemble-middleware-buffer [![NPM version](https://badge.fury.io/js/assemble-middleware-buffer.png)](http://badge.fury.io/js/assemble-middleware-buffer)
 
-> Buffer files into a specified array on the Assemble object.
+> Buffer files into a specified array on the Assemble context.
 
 ## Install
 Install with [npm](npmjs.org):
